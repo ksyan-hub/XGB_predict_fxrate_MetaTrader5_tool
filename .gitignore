@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+csv_rate_data/
+prediction_rate_data/
+saved_model/
