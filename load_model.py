@@ -64,7 +64,7 @@ class loading_model:
 
     def model_low(self, window, tree_batch_size):
         ohlcts_cols = [ "open", "high", "low", "close", "tick_volume", "spread"]
-        params = {"objective": "reg:squarederror", "learning_rate": 0.01,}
+        params = {"objective": "reg:squarederror", "learning_rate": 0.1,}
         feature_columns = []
         x_buffer = []
         y_buffer_model_low = []
