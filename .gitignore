@@ -1,5 +1,10 @@
 __pycache__/
 *.pyc
+saved_model/
+venv/
+.venv/
+.mt5/
+ML_predict_fxrates_sarver/
+python-3.8.0-amd64.exe
 csv_rate_data/
 prediction_rate_data/
-saved_model/
